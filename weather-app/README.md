@@ -2,10 +2,7 @@
 
 The weather app is created using openweathermap api  and rxJS for asynchronous data handling. 
 
-The web app follows the Model-View-Controller (MVC) architecture, with a strong emphasis on component-based design.
-
-
-
+It follows the Model-View-Controller (MVC) architecture, with a strong emphasis on component-based design.
 
 ## Running the app
 Clone the project from github
