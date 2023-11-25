@@ -1,0 +1,25 @@
+<!-- app.component.html -->
+
+<mat-toolbar color="primary">
+  My Weather App
+</mat-toolbar>
+
+<div class="content">
+  <div class="flex-row">
+    <mat-form-field class="mr">
+      <mat-label>Enter country</mat-label>
+      <input matInput [(ngModel)]="selectedCountry" placeholder="Country" class="dev">
+    </mat-form-field>
+
+    <mat-form-field class="mr">
+      <mat-label>Enter city</mat-label>
+      <input matInput [(ngModel)]="selectedCity" placeholder="City" class="dev">
+    </mat-form-field>
+
+    <button mat-raised-button color="accent" (click)="checkWeather()">Check Weather</button>
+  </div>
+
+  <br />
+
+  <router-outlet></router-outlet>
+</div>
